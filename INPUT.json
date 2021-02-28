@@ -1,0 +1,31 @@
+{
+  "runMode": "PRODUCTION",
+  "startUrls": [
+    {
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJ54tNkYcVrjsRc93FTNrLEq0"
+    }
+  ],
+  "injectJQuery": true,
+  "injectUnderscore": false,
+  "proxyConfiguration": {
+    "useApifyProxy": false
+  },
+  "initialCookies": [],
+  "useChrome": false,
+  "useStealth": false,
+  "ignoreSslErrors": false,
+  "ignoreCorsAndCsp": false,
+  "downloadMedia": true,
+  "downloadCss": true,
+  "breakpointLocation": "NONE",
+  "debugLog": false,
+  "browserLog": false,
+  "customData": {},
+  "proxyRotation": "RECOMMENDED",
+  "maxRequestRetries": 3,
+  "maxPagesPerCrawl": 0,
+  "maxResultsPerCrawl": 0,
+  "maxCrawlingDepth": 0,
+  "pageFunctionTimeoutSecs": 3000,
+  "maxConcurrency": 100
+}
